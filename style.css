@@ -1,0 +1,263 @@
+body
+{
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+html {
+    scroll-behavior: smooth;
+}
+#navigation
+{
+    height: 5vh;
+    padding: 20px;
+}
+#name
+{
+    color: #000000;
+    font-weight: bold;
+    font-family: Helvetica monospace;
+    font-size: 36px;
+    margin-left: 40px;
+}
+#links
+{
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+.link
+{
+    color: #659dd6;
+    font-family: Arial sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px 40px;
+}
+.link:hover
+{
+    color: #000000;
+    transition: .4s;
+}
+#photos
+{
+    width: 100%;
+    height: 91vh;
+    background-image: linear-gradient(180deg, #ffffff, #659dd6);
+}
+#welcome
+{
+    font-family: Helvetica sans-serif;
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+
+    text-align: center;
+    padding-top: 400px;
+    text-shadow: 3px 3px #659dd6;
+}
+#about-me
+{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+
+}
+#desc, #image
+{
+    width: 400px;
+    height: 500px;
+    background-color: #659dd6;
+    text-align: justify;
+    font-size: 20px;
+    border: #659dd6 1px;
+    border-radius: 25px;
+    margin: 100px 60px;
+    padding: 40px;
+
+}
+#hobbies, #hobs-desc
+{
+    width: 900px;
+    margin: 30px 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.hobs
+{
+    width: 150px;
+    border: 5px solid #659dd6;
+    border-radius: 100px;
+}
+#hobs-desc
+{
+    font-family: Helvetica monospace;
+    font-size: 20px;
+    text-transform: lowercase;
+    margin-bottom: 200px;
+}
+#hobs-desc div:hover
+{
+    text-decoration: underline #659dd6 3px;
+    transition: .3s;
+    border-color: #659dd6;
+}
+#hobs-title:hover
+{
+    color: #659dd6;
+    transition: .3s;
+}
+#education
+{
+    width: 1000px;
+    height: 300px;
+    margin: 100px 430px;
+    background-color: #659dd6;
+    padding: 35px;
+    border-radius: 25px;
+}
+#num
+{
+    float: left;
+    margin-top: 3px;
+    margin-left: 30px;
+}
+#line
+{
+   float: right;
+    margin-top: 25px;
+    margin-right: 100px;
+}
+.years, .school
+{
+    color: #ffffff;
+    font-family: Helvetica sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+.school
+{
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    text-align: center;
+}
+hr
+{
+    width: 650px;
+    height: 5px;
+    background-color: #ffffff;
+    margin-bottom: 85px;
+    border: none;
+}
+#around
+ {
+     border: solid #000000 5px;
+     border-radius: 25px;
+     height: 370px;
+     width: 1050px;
+     position: absolute;
+     left: 400px;
+     bottom: -1650px;
+
+ }
+#edu
+{
+    font-family: Helvetica sans-serif;
+    font-size: 42px;
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: bold;
+    position: absolute;
+    left: 1200px;
+    bottom: -1250px;
+}
+#contact
+{
+     display: flex;
+     justify-content: space-evenly;
+     margin: 100px 400px;
+}
+form
+{
+    width: 600px;
+    height: 500px;
+    background-color: #659dd6;
+    border: #659dd6 1px;
+    border-radius: 25px;
+    padding: 25px;
+
+}
+#name-form, #email-form, #text-form
+{
+    width: 400px;
+    padding: 5px;
+    border: none;
+    margin-bottom: 25px;
+    float: right;
+}
+label
+{
+    font-family: Helvetica sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#button
+{
+    float: bottom;
+    margin-top: 15px;
+    margin-left: 200px;
+    background-color: #000000;
+    color: #ffffff;
+    border: solid #000000 2px;
+    border-radius: 25px;
+    padding: 10px;
+    width: 100px;
+    font-family: Helvetica sans-serif;
+    font-size: 18px;
+}
+#cont
+{
+    border: #ffffff solid 5px;
+    border-radius: 25px;
+    padding: 35px;
+    height: 420px;
+}
+label
+{
+    font-size: 22px;
+}
+#mail, #telephone
+{
+    border-radius: 25px;
+    background-color: #659dd6;
+    height: 250px;
+    width: 350px;
+    margin-bottom: 35px;
+}
+#hobs-title, #about-title, #title, #proj-title
+{
+    font-family: Helvetica sans-serif;
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 60px;
+}
+#loadbar
+{
+    height: 10px;
+    width: 500px;
+    background-color: #000000;
+    margin-bottom: 20px;
+}
+#load
+{
+    font-family: Helvetica sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 120px;
+}
